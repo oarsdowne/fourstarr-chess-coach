@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[[headers]]
+  for = "/stockfish-19-lite-single.wasm"
+  [headers.values]
+    Content-Type = "application/wasm"
